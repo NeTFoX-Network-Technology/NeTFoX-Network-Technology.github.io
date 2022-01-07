@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="本页是关于 TARDIS 控制台控件的功能、位置和操作的参考。  控制布局每个控制台单元的控件都有不同的布局。用一只手握住游戏中的 Tardis Manual，并将鼠标悬停在控制台的不同部分，以了解每个控制台的布局。 功能列表通信器关于 允许塔迪斯拦截遇险信号。这些求救信号可以是玩家发出的信号，也可以是其他方式。 使用 安装所需的组件  在引擎的组件面板上安装间隙天线  发送信号  如果没有等待的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TARDIS 控制台控制">
+<meta property="og:url" content="https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/index.html">
+<meta property="og:site_name" content="ZER0Zone">
+<meta property="og:description" content="本页是关于 TARDIS 控制台控件的功能、位置和操作的参考。  控制布局每个控制台单元的控件都有不同的布局。用一只手握住游戏中的 Tardis Manual，并将鼠标悬停在控制台的不同部分，以了解每个控制台的布局。 功能列表通信器关于 允许塔迪斯拦截遇险信号。这些求救信号可以是玩家发出的信号，也可以是其他方式。 使用 安装所需的组件  在引擎的组件面板上安装间隙天线  发送信号  如果没有等待的">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://netfox-network-technology.github.io/2022/01/07/assets/console-steam.png">
+<meta property="article:published_time" content="2022-01-07T09:45:22.000Z">
+<meta property="article:modified_time" content="2022-01-07T13:40:16.931Z">
+<meta property="article:author" content="NeTSEC">
+<meta property="article:tag" content="Minecraft">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://netfox-network-technology.github.io/2022/01/07/assets/console-steam.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-128x128.ico" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-128x128.ico">
+        
+      
+    
+    <!-- title -->
+    <title>TARDIS 控制台控制</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about/">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/projects_url/">项目</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="上一篇" href="/2022/01/07/unlocking-extra-content/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="下一篇" href="/2022/01/07/obtaining-a-tardis/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="返回顶部" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="分享文章" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">上一篇</span>
+      <span id="i-next" class="info" style="display:none;">下一篇</span>
+      <span id="i-top" class="info" style="display:none;">返回顶部</span>
+      <span id="i-share" class="info" style="display:none;">分享文章</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&text=TARDIS 控制台控制"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&title=TARDIS 控制台控制"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&is_video=false&description=TARDIS 控制台控制"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=TARDIS 控制台控制&body=Check out this article: https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&title=TARDIS 控制台控制"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&title=TARDIS 控制台控制"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&title=TARDIS 控制台控制"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&title=TARDIS 控制台控制"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&name=TARDIS 控制台控制&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&t=TARDIS 控制台控制"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8E%A7%E5%88%B6%E5%B8%83%E5%B1%80"><span class="toc-number">1.</span> <span class="toc-text">控制布局</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8A%9F%E8%83%BD%E5%88%97%E8%A1%A8"><span class="toc-number">2.</span> <span class="toc-text">功能列表</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%80%9A%E4%BF%A1%E5%99%A8"><span class="toc-number">2.1.</span> <span class="toc-text">通信器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%9D%90%E6%A0%87%E5%A2%9E%E9%87%8F%E4%BF%AE%E6%94%B9%E5%99%A8"><span class="toc-number">2.2.</span> <span class="toc-text">坐标增量修改器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%9D%90%E6%A0%87%E9%9A%8F%E6%9C%BA%E5%8F%91%E7%94%9F%E5%99%A8"><span class="toc-number">2.3.</span> <span class="toc-text">坐标随机发生器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%BB%B4%E5%BA%A6%E7%A7%BB%E7%9B%B8%E5%99%A8"><span class="toc-number">2.4.</span> <span class="toc-text">维度移相器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%97%A8"><span class="toc-number">2.5.</span> <span class="toc-text">门</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%BF%AB%E9%80%9F%E8%BF%94%E5%9B%9E"><span class="toc-number">2.6.</span> <span class="toc-text">快速返回</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%89%8B%E5%88%B9"><span class="toc-number">2.7.</span> <span class="toc-text">手刹</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%9D%80%E9%99%86%E7%B1%BB%E5%9E%8B%E9%80%89%E6%8B%A9%E5%99%A8"><span class="toc-number">2.8.</span> <span class="toc-text">着陆类型选择器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%9B%91%E8%A7%86%E5%99%A8"><span class="toc-number">2.9.</span> <span class="toc-text">监视器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%A1%A5%E5%85%85%E7%87%83%E6%96%99"><span class="toc-number">2.10.</span> <span class="toc-text">补充燃料</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%9F%B3%E9%80%9F%E8%B5%B7%E5%AD%90%E6%8F%92%E5%BA%A7"><span class="toc-number">2.11.</span> <span class="toc-text">音速起子插座</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%A8%B3%E5%AE%9A%E5%99%A8"><span class="toc-number">2.12.</span> <span class="toc-text">稳定器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%B2%B9%E9%97%A8-%E8%8A%82%E6%B5%81%E9%98%80"><span class="toc-number">2.13.</span> <span class="toc-text">油门&#x2F;节流阀</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%BF%83%E7%81%B5%E6%84%9F%E5%BA%94%E7%94%B5%E8%B7%AF"><span class="toc-number">2.14.</span> <span class="toc-text">心灵感应电路</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#X%EF%BC%8CY%EF%BC%8CZ-%E7%BB%98%E5%9B%BE%E4%BB%AA"><span class="toc-number">2.15.</span> <span class="toc-text">X，Y，Z 绘图仪</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        TARDIS 控制台控制
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">NeTSEC</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2022-01-07T09:45:22.000Z" itemprop="datePublished">2022-01-07</time>
+        
+      
+    </div>
+
+
+      
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/Minecraft/" rel="tag">Minecraft</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>本页是关于 TARDIS 控制台控件的功能、位置和操作的参考。</p>
+<p><img src="../assets/console-steam.png"></p>
+<h4 id="控制布局"><a href="#控制布局" class="headerlink" title="控制布局"></a>控制布局</h4><p>每个控制台单元的控件都有不同的布局。用一只手握住游戏中的 Tardis Manual，并将鼠标悬停在控制台的不同部分，以了解每个控制台的布局。</p>
+<h4 id="功能列表"><a href="#功能列表" class="headerlink" title="功能列表"></a>功能列表</h4><h5 id="通信器"><a href="#通信器" class="headerlink" title="通信器"></a>通信器</h5><p><strong>关于</strong></p>
+<p>允许塔迪斯拦截遇险信号。这些求救信号可以是玩家发出的信号，也可以是其他方式。</p>
+<p><strong>使用</strong></p>
+<p><em>安装所需的组件</em></p>
+<ol>
+<li>在引擎的组件面板上安装间隙天线</li>
+</ol>
+<p><em>发送信号</em></p>
+<ol>
+<li>如果没有等待的遇险信号，请右键单击此控件</li>
+<li>在屏幕上显示的文本框中输入消息</li>
+<li>在屏幕上显示的文本框中输入消息</li>
+</ol>
+<p><em>定位信号</em></p>
+<ol>
+<li>把塔迪斯飞到不同的地方</li>
+<li>当塔迪斯着陆时，如果它检测到遇险信号，它会发出蜂鸣声或铃声，这取决于控制台</li>
+<li>你可以选择接受或忽略这个信号</li>
+</ol>
+<p><em>航行到遇险信号处</em></p>
+<ol>
+<li>右键单击通信器控件。如果塔迪斯发现了遇险信号，一个GUI就会打开。否则，将没有GUI</li>
+<li>要移动到信号的位置，按下 Accept 按钮</li>
+<li>用油门和手刹起飞</li>
+</ol>
+<p><em>忽略遇险信号</em></p>
+<ol>
+<li>右键单击通信器控件。如果塔迪斯发现了遇险信号，一个GUI就会打开。否则，将没有GUI</li>
+<li>按下 Ignore 按钮删除遇险信号。这将防止它使控制播放铃声</li>
+<li>要忽略所有信号，请按下 Ignore all 按钮</li>
+</ol>
+<h5 id="坐标增量修改器"><a href="#坐标增量修改器" class="headerlink" title="坐标增量修改器"></a>坐标增量修改器</h5><p><strong>关于</strong></p>
+<p>这个控件调整 X Y Z 绘图仪的增量率。</p>
+<p>比率是 1，10，100 和 1000。</p>
+<p>缺省情况下，增量速率为 10。</p>
+<p><strong>使用</strong></p>
+<p>右击该按钮以循环切换增量率</p>
+<h5 id="坐标随机发生器"><a href="#坐标随机发生器" class="headerlink" title="坐标随机发生器"></a>坐标随机发生器</h5><p><strong>关于</strong></p>
+<p>该控件将随机重设当前维度的坐标，范围是 5000 个方块。</p>
+<p><strong>使用</strong></p>
+<p>右击按钮，用油门调节飞行速度，然后松开手刹，起飞</p>
+<h5 id="维度移相器"><a href="#维度移相器" class="headerlink" title="维度移相器"></a>维度移相器</h5><p><strong>关于</strong></p>
+<p>此控件允许您选择目的地的维度（比如末地）。</p>
+<p>这个控件将能够循环切换服务器中的所有维度，以及来自其他模组的维度。</p>
+<p><strong>使用</strong></p>
+<ol>
+<li>右击该按钮可遍历所有可用的维度</li>
+<li>当您满意您的设置，调整飞行速度</li>
+<li>松开手刹，起飞</li>
+</ol>
+<h5 id="门"><a href="#门" class="headerlink" title="门"></a>门</h5><p><strong>关于</strong></p>
+<p>此控件允许你打开，关闭，解锁和锁上塔迪斯的门。</p>
+<p><strong>使用</strong></p>
+<ol>
+<li>右击按钮打开/关闭门</li>
+<li>潜行并右击按钮以解锁或上锁</li>
+</ol>
+<h5 id="快速返回"><a href="#快速返回" class="headerlink" title="快速返回"></a>快速返回</h5><p><strong>关于</strong></p>
+<p>此控件允许你的时间飞船返回它最后着陆的位置。</p>
+<p><strong>使用</strong></p>
+<ol>
+<li>右击按钮将目的地设置为它着陆的前一个位置</li>
+</ol>
+<h5 id="手刹"><a href="#手刹" class="headerlink" title="手刹"></a>手刹</h5><p><strong>关于</strong></p>
+<p>手刹，与油门一同使用。</p>
+<p>如果塔迪斯的情绪处于消极状态，这可能会阻止塔迪斯自己起飞。</p>
+<p><strong>使用</strong></p>
+<ol>
+<li>右击手刹在 ON 和 OFF 之间切换</li>
+<li>ON 表示手刹已闭合。在这种状态下，塔迪斯不能去物质化</li>
+<li>OFF 表示手刹已断开。在这种状态下，塔迪斯可以去物质化</li>
+</ol>
+<h5 id="着陆类型选择器"><a href="#着陆类型选择器" class="headerlink" title="着陆类型选择器"></a>着陆类型选择器</h5><p><strong>关于</strong></p>
+<p>通过切换按钮，可以找到目的地的最高可用位置或最低可用位置。</p>
+<p>如果您不确定目标坐标上的潜在风险，这是很有用的。如大瀑布、岩浆池等。</p>
+<p><strong>使用</strong></p>
+<ol>
+<li>右击按钮可在两种类型的搜索模式之间切换。它会切换是向上还是向下</li>
+<li>当您对设置感到满意时，可使用油门调节飞行速度，然后将手刹拨至 ON，即起飞</li>
+</ol>
+<h5 id="监视器"><a href="#监视器" class="headerlink" title="监视器"></a>监视器</h5><p><strong>关于</strong></p>
+<p>此控件允许您打开一个类似于 Tardis Monitor 的 Monitor GUI。这只存在于某些控制台单元类型中。</p>
+<p><strong>使用</strong></p>
+<ol>
+<li>右击或左击此控件以打开 Monitor GUI</li>
+</ol>
+<h5 id="补充燃料"><a href="#补充燃料" class="headerlink" title="补充燃料"></a>补充燃料</h5><p><strong>关于</strong></p>
+<ul>
+<li>此控件允许你对塔迪斯进行燃料补给。如果你想长距飞行，这是必须的。</li>
+<li>燃料的使用量每一次旅行将会有所不同，因此建议您在每一次飞行后为塔迪斯补充燃料。</li>
+<li>在同一维度中跨越数百个区块或涉及到另一个维度的旅行将需要更多的燃料。</li>
+</ul>
+<p><strong>使用</strong></p>
+<ol>
+<li>右键单击按钮来切换加油状态</li>
+</ol>
+<h5 id="音速起子插座"><a href="#音速起子插座" class="headerlink" title="音速起子插座"></a>音速起子插座</h5><p><strong>关于</strong></p>
+<p>此控件允许玩家插入音速设备来接收或提供信息给他们的时间飞船。</p>
+<p>允许玩家解锁不同的原理图，其中可以包括塔迪斯的内部，外部或控制台。</p>
+<p><strong>使用</strong></p>
+<ol>
+<li>使用中子谱计或其他方法下载音速起子的原理图</li>
+<li>用音速起子右键单击音速起子插座</li>
+<li>如果 Schematic 是有效的，将显示一条消息，说明 Schematic 的对象已经解锁。如果出现错误，或者原理图已经被解锁，将显示类似于 “This object has already been unlocked” 的消息。</li>
+</ol>
+<h5 id="稳定器"><a href="#稳定器" class="headerlink" title="稳定器"></a>稳定器</h5><p><strong>关于</strong></p>
+<p>此控件允许时间飞船的飞行模式在不稳定和稳定飞行之间切换。</p>
+<p><strong>使用</strong></p>
+<ol>
+<li>右击单击按钮在不稳定飞行和稳定飞行之间切换</li>
+</ol>
+<h5 id="油门-节流阀"><a href="#油门-节流阀" class="headerlink" title="油门/节流阀"></a>油门/节流阀</h5><p><strong>关于</strong></p>
+<p>此控件允许控制塔迪斯通过时间漩涡的飞行速度以影响她的飞行时间。</p>
+<p>此控件还允许塔迪斯安全的退出飞行模式。</p>
+<p><strong>使用</strong></p>
+<ol>
+<li>要增加飞行速度，请右击控件。每一次这样的交互都会使飞行速度提高 10%</li>
+<li>要快速增加飞行速度到100%，请左键点击控件。</li>
+<li>若要降低飞行速度，请潜行并右击控件。每一次这样的交互作用都会使飞行速度降低 10%</li>
+<li>要快速降低飞行速度到 0%，请潜行并左击控件</li>
+</ol>
+<h5 id="心灵感应电路"><a href="#心灵感应电路" class="headerlink" title="心灵感应电路"></a>心灵感应电路</h5><p><strong>关于</strong></p>
+<p>此控件允许你的时间飞船在 500 个方块的半径内定位附近的生物群落、结构和其他物体。</p>
+<p>它也是飞行员和时间飞船之间的直接界面，让双方都能读懂对方的情绪。</p>
+<p><strong>使用</strong></p>
+<p>生物群落/结构定位器</p>
+<ol>
+<li>右击控件以打开GUI。选择需要搜索的对象</li>
+<li>要找到附近的结构，插入结构升级到引擎的升级面板，然后重新打开 GUI</li>
+</ol>
+<p>情感翻译</p>
+<ol>
+<li>潜行并右击心灵感应电路。你会收到类似于 “你感觉和你的塔迪斯联系更紧密了” 的信息</li>
+<li>在塔迪斯的内部放置一张床</li>
+<li>睡在床上。塔迪斯的心情将显示为聊天消息</li>
+</ol>
+<h5 id="X，Y，Z-绘图仪"><a href="#X，Y，Z-绘图仪" class="headerlink" title="X，Y，Z 绘图仪"></a>X，Y，Z 绘图仪</h5><p><strong>关于</strong></p>
+<p>此控件允许通过调整 X，Y 和 Z 坐标来改变塔迪斯的空间位置。</p>
+<p>坐标值可以增加或减少。递增率由坐标增量修改器控制。</p>
+<p><strong>使用</strong></p>
+<ol>
+<li>若要增加坐标值，请右键单击对应坐标值的按钮</li>
+<li>若要减小坐标值，请潜行并右键单击对应坐标值的按钮</li>
+<li>您的目的地位置的变化可以通过监视器查看</li>
+</ol>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about/">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/projects_url/">项目</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8E%A7%E5%88%B6%E5%B8%83%E5%B1%80"><span class="toc-number">1.</span> <span class="toc-text">控制布局</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8A%9F%E8%83%BD%E5%88%97%E8%A1%A8"><span class="toc-number">2.</span> <span class="toc-text">功能列表</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%80%9A%E4%BF%A1%E5%99%A8"><span class="toc-number">2.1.</span> <span class="toc-text">通信器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%9D%90%E6%A0%87%E5%A2%9E%E9%87%8F%E4%BF%AE%E6%94%B9%E5%99%A8"><span class="toc-number">2.2.</span> <span class="toc-text">坐标增量修改器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%9D%90%E6%A0%87%E9%9A%8F%E6%9C%BA%E5%8F%91%E7%94%9F%E5%99%A8"><span class="toc-number">2.3.</span> <span class="toc-text">坐标随机发生器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%BB%B4%E5%BA%A6%E7%A7%BB%E7%9B%B8%E5%99%A8"><span class="toc-number">2.4.</span> <span class="toc-text">维度移相器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%97%A8"><span class="toc-number">2.5.</span> <span class="toc-text">门</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%BF%AB%E9%80%9F%E8%BF%94%E5%9B%9E"><span class="toc-number">2.6.</span> <span class="toc-text">快速返回</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%89%8B%E5%88%B9"><span class="toc-number">2.7.</span> <span class="toc-text">手刹</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%9D%80%E9%99%86%E7%B1%BB%E5%9E%8B%E9%80%89%E6%8B%A9%E5%99%A8"><span class="toc-number">2.8.</span> <span class="toc-text">着陆类型选择器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%9B%91%E8%A7%86%E5%99%A8"><span class="toc-number">2.9.</span> <span class="toc-text">监视器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%A1%A5%E5%85%85%E7%87%83%E6%96%99"><span class="toc-number">2.10.</span> <span class="toc-text">补充燃料</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E9%9F%B3%E9%80%9F%E8%B5%B7%E5%AD%90%E6%8F%92%E5%BA%A7"><span class="toc-number">2.11.</span> <span class="toc-text">音速起子插座</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%A8%B3%E5%AE%9A%E5%99%A8"><span class="toc-number">2.12.</span> <span class="toc-text">稳定器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%B2%B9%E9%97%A8-%E8%8A%82%E6%B5%81%E9%98%80"><span class="toc-number">2.13.</span> <span class="toc-text">油门&#x2F;节流阀</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%BF%83%E7%81%B5%E6%84%9F%E5%BA%94%E7%94%B5%E8%B7%AF"><span class="toc-number">2.14.</span> <span class="toc-text">心灵感应电路</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#X%EF%BC%8CY%EF%BC%8CZ-%E7%BB%98%E5%9B%BE%E4%BB%AA"><span class="toc-number">2.15.</span> <span class="toc-text">X，Y，Z 绘图仪</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&text=TARDIS 控制台控制"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&title=TARDIS 控制台控制"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&is_video=false&description=TARDIS 控制台控制"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=TARDIS 控制台控制&body=Check out this article: https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&title=TARDIS 控制台控制"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&title=TARDIS 控制台控制"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&title=TARDIS 控制台控制"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&title=TARDIS 控制台控制"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&name=TARDIS 控制台控制&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://netfox-network-technology.github.io/2022/01/07/tardis-console-controls/&t=TARDIS 控制台控制"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> 目录</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> 返回顶部</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2022
+    NeTSEC
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about/">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/projects_url/">项目</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "复制成功!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
